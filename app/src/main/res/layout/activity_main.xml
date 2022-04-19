@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Phone!"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/andChooseTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tandau zhasanyz"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IOS Phone!"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/ios_choose_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tandau zhasanyz"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Otinem tolem turin tandanyz"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rad_kaspi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kolma-kol">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rad_forte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nesie"
+            android:layout_marginLeft="20dp">
+        </RadioButton>
+    </RadioGroup>
+    <CheckBox
+        android:id="@+id/chbx_delivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tapsyryspen birge syilyk">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/chbx_present"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tegin tapsyrys">
+    </CheckBox>
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zhiberu">
+    </Button>
+</LinearLayout>
